@@ -633,7 +633,7 @@
   "resolved" "https://registry.npmjs.org/@types/semver/-/semver-7.3.13.tgz"
   "version" "7.3.13"
 
-"@typescript-eslint/eslint-plugin@^5.47.0":
+"@typescript-eslint/eslint-plugin@^5.13.0", "@typescript-eslint/eslint-plugin@^5.47.0":
   "integrity" "sha512-AHZtlXAMGkDmyLuLZsRpH3p4G/1iARIwc/T0vIem2YB+xW6pZaXYXzCBnZSF/5fdM97R9QqZWZ+h3iW10XgevQ=="
   "resolved" "https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.47.0.tgz"
   "version" "5.47.0"
@@ -1204,6 +1204,13 @@
     "object.assign" "^4.1.2"
     "object.entries" "^1.1.5"
     "semver" "^6.3.0"
+
+"eslint-config-airbnb-typescript@^17.0.0":
+  "integrity" "sha512-elNiuzD0kPAPTXjFWg+lE24nMdHMtuxgYoD30OyMD6yrW1AhFZPAg27VX7d3tzOErw+dgJTNWfRSDqEcXb4V0g=="
+  "resolved" "https://registry.npmjs.org/eslint-config-airbnb-typescript/-/eslint-config-airbnb-typescript-17.0.0.tgz"
+  "version" "17.0.0"
+  dependencies:
+    "eslint-config-airbnb-base" "^15.0.0"
 
 "eslint-config-airbnb@^19.0.4":
   "integrity" "sha512-T75QYQVQX57jiNgpF9r1KegMICE94VYwoFQyMGhrvc+lB8YF2E/M/PYDaQe1AJcWaEgqLE+ErXV1Og/+6Vyzew=="

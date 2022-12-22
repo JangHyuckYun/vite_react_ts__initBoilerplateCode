@@ -21,20 +21,32 @@ module.exports = {
 		es2021: true,
 	},
 	rules: {
-		"@typescript-eslint/naming-convention": [
+		"react/prefer-stateless-function": 0,
+		"react/jsx-filename-extension": 0,
+		"react/jsx-one-expression-per-line": 0,
+		"react/prop-types": 0,
+		"jsx-a11y/label-has-associated-control": [
 			"error",
 			{
-				"selector": "interface",
-				"format": ["PascalCase"],
-				"custom": {
-					"regex": "^I[A-Z]",
-					"match": true
+				"required": {
+					"some": [
+						"nesting",
+						"id"
+					]
 				}
 			}
 		],
-		"react/react-in-jsx-scope": "off",
-		"react/button-has-type": "off",
-		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx"] }]
+		"jsx-a11y/label-has-for": [
+			"error",
+			{
+				"required": {
+					"some": [
+						"nesting",
+						"id"
+					]
+				}
+			}
+		]
 	},
 	"overrides": [
 		{
